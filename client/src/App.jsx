@@ -1,10 +1,12 @@
 import "./App.css";
+import CardSection from "./component/CardSection";
 
 function App() {
-  return <div className="App">
-    <h1 className="text-3xl font-bold underline">hello world</h1>
-    
-  </div>;
+  return (
+    <div className="App min-h-screen bg-gray-100 py-8">
+      <CardSection />
+    </div>
+  );
 }
 
 export default App;
