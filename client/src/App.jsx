@@ -1,7 +1,13 @@
 import "./App.css";
+import SearchDestinationPage from "./Pages/SearchDestination";
+
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  return (
+    <div>
+      <SearchDestinationPage />
+    </div>
+  );
 }
 
 export default App;
