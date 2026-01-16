@@ -1,10 +1,13 @@
 import "./App.css";
+import SearchDestinationPage from "./Pages/SearchDestination";
+
 
 function App() {
-  return <div className="App">
-    <h1 className="text-3xl font-bold underline">hello world</h1>
-    
-  </div>;
+  return (
+    <div>
+      <SearchDestinationPage />
+    </div>
+  );
 }
 
 export default App;
