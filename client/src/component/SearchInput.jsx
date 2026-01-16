@@ -1,6 +1,4 @@
 function SearchInput({ search, onSearchChange }) {
-
-
   return (
     <>
       <h1 className="text-blue-500 text-5xl font-bold text-center mb-10 font-prompt">
@@ -13,7 +11,6 @@ function SearchInput({ search, onSearchChange }) {
           </span>
           <div>
             <input
-              ref={inputRef}
               type="text"
               placeholder="หาที่เที่ยวแล้วไปกัน .."
               value={search}
